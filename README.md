@@ -11,5 +11,3 @@ Please note that this project currently has front-end elements only. It was mere
 - JavaScript
 - CSS
 - HTML
-
-## Features
