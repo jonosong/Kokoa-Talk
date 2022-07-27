@@ -46,3 +46,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* below are my own custom codes */
+input:focus{
+	outline: none; /* to get rid of outline on the form boxes */
+}
+
+a{
+	color:inherit;
+	text-decoration: none;
+}

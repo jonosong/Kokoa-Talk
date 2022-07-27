@@ -13,4 +13,5 @@ function getClock(){
 
 getClock() // clock starts as soons as page is loaded
 setInterval(getClock, 1000); // starts right away in 'ms'. eg 1s = 1,000ms
+
 //setTimeout(sayHello, 3000); // starts after 3s or 3,000ms
