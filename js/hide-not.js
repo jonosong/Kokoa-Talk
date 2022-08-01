@@ -5,4 +5,4 @@ if (wasHere){
     for (const i of hideItems){
         i.classList.add('hidden');
     }
-}
+};
