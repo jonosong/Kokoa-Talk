@@ -6,6 +6,8 @@ This is a simple cloning project of 'Kakao Talk', the most popular mobile messag
 
 Please note that this project currently has front-end elements only. It was merely built to understand and experience the design architecture of 'Kakao Talk'.
 
+Visit here to view: https://jonosong.github.io/Kokoa-Talk/
+
 ## Technologies
 
 - JavaScript
