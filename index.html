@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Kokoa Talk</title>
+    <link rel="shortcut icon" href="mylogo.png" />
     <script
       src="https://kit.fontawesome.com/95b0772e7b.js"
       crossorigin="anonymous"
@@ -16,7 +17,7 @@
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
+        <span>Hello</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div id="clock" class="status-bar__column">
@@ -29,27 +30,36 @@
       </div>
     </div>
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to KokoaTalk Clone</h1>
-      <p class="welcome-header__text1">If you have a Kokoa Account,</p>
+      <h1 class="welcome-header__title">Welcome to Kokoa Talk Clone</h1>
       <p class="welcome-header__text1">
-        log in with your email or phone number.
+        This is a cloning project of 'Kakao Talk',
+      </p>
+      <p class="welcome-header__text1">
+        the most popular mobile messaging app for
+      </p>
+      <p class="welcome-header__text1">
+        smartphones operated by Kakao Inc in South Korea.
       </p>
       <p class="welcome-header__text2">
-        For the purpose of this project, you do NOT need to put your real email
-        or phone number.
+        For more info on Kakao Talk, please click
+        <a href="https://en.wikipedia.org/wiki/KakaoTalk" target="_blank"
+          >here.</a
+        >
       </p>
+      <p class="welcome-header__text2">For the purpose of this project,</p>
+      <p class="welcome-header__text1">features such as Log In, Sign Up,</p>
+      <p class="welcome-header__text1">and Find My Account or Password</p>
+      <p class="welcome-header__text1">are not available yet.</p>
     </header>
     <form action="friends.html" method="get" id="login-form">
       <input
         name="username"
+        maxlength="15"
         type="text"
         required
-        placeholder="Email or Phone Number"
+        placeholder="Write your username here"
       />
-      <input name="password" type="password" required placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <input type="submit" value="Sign Up" />
-      <a href="#" target="_blank">Find Kokoa Account or Password</a>
+      <input type="submit" value="Press here to continue" />
     </form>
 
     <div id="no-mobile">
@@ -59,6 +69,7 @@
       >
     </div>
 
+    <script src="js/log-in.js"></script>
     <script src="js/clock.js"></script>
   </body>
 </html>

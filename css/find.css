@@ -1,19 +1,20 @@
-.find-icons{
+.icon-row{
     display: flex;
     justify-content: space-between;
+    cursor: not-allowed;
 }
 
-.find-icons__icon{  
+.icon-row__icon{  
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.find-icons__icon i{
+.icon-row__icon i{
     font-size: 32px;
 }
 
-.find-icons__icon span{
+.icon-row__icon span{
     margin-top: 5px;
 }
 

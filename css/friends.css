@@ -8,8 +8,8 @@
     margin-top: -15px;
 }
 
-#friends-display-link i {
-    color: rgba(0, 0, 0, 0.3);
+#friends-display-link {
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .friends-screen{
@@ -51,4 +51,17 @@
     font-size: 140px;
     animation: hideSplashScreen 0.2s ease-in-out forwards;
     animation-delay: 0.2s;
+}
+
+@keyframes rotateCog {
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.user-component__column .fa-brands:hover{
+    animation: rotateCog 1.5s linear infinite;
 }
