@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>More - Kokoa Talk</title>
+    <link rel="shortcut icon" href="mylogo.png" />
     <script
       src="https://kit.fontawesome.com/95b0772e7b.js"
       crossorigin="anonymous"
@@ -15,7 +16,7 @@
   </head>
   <body>
     <div class="status-bar">
-      <div class="status-bar__column">
+      <div id="greetings-head" class="status-bar__column">
         <span>ようこそ</span>
         <i class="fas fa-wifi"></i>
       </div>
@@ -31,16 +32,9 @@
     <header class="screen-header">
       <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span>
-          <a href="https://www.youtube.com/c/NZJonosong" target="_blank">
-            <i class="fa-brands fa-youtube fa-lg"></i
-          ></a>
-        </span>
         <span
           ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
         ></span>
-        <span class="screen-header__dot-notification"></span>
       </div>
     </header>
 
@@ -53,12 +47,9 @@
           />
           <div class="user-component__text">
             <h4 class="user-component__title">NZJonosong</h4>
-            <h6 class="user-component__displaymsg">+123 456 789</h6>
           </div>
         </div>
-        <div class="user-component__column">
-          <i class="far fa-comment-alt fa-2x"></i>
-        </div>
+        <div class="user-component__column"></div>
       </div>
       <div class="icon-row">
         <div class="icon-row__icon">
@@ -137,7 +128,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
+            <span class="nav__notification badge to-hide">1</span>
             <i class="far fa-comment fa-2x"></i
           ></a>
         </li>
@@ -148,7 +139,6 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
-            <span class="nav__dot-notification"></span>
             <i class="fas fa-ellipsis-h fa-2x"></i>
           </a>
         </li>
@@ -162,6 +152,8 @@
       >
     </div>
 
+    <script src="js/greetings-top.js"></script>
     <script src="js/clock.js"></script>
+    <script src="js/hide-not.js"></script>
   </body>
 </html>

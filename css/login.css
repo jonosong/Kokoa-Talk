@@ -14,12 +14,13 @@
 .welcome-header__text1{
     width: 80%;
     opacity: 0.7;
+    margin-top: 5px;
 }
 
 .welcome-header__text2{
     width: 80%;
     opacity: 0.7;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 #login-form{

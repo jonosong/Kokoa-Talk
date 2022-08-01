@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Find - Kokoa Talk</title>
+    <link rel="shortcut icon" href="mylogo.png" />
     <script
       src="https://kit.fontawesome.com/95b0772e7b.js"
       crossorigin="anonymous"
@@ -15,8 +16,8 @@
   </head>
   <body>
     <div class="status-bar">
-      <div class="status-bar__column">
-        <span>안녕하세요</span>
+      <div id="greetings-head" class="status-bar__column">
+        <span>Welcome</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div id="clock" class="status-bar__column">
@@ -30,15 +31,6 @@
     </div>
     <header class="screen-header">
       <h1 class="screen-header__title">Find</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span>
-          <a href="settings.html">
-            <i class="fas fa-cog fa-lg"></i>
-          </a>
-          <span class="screen-header__dot-notification"></span>
-        </span>
-      </div>
     </header>
 
     <main class="main-screen">
@@ -94,7 +86,8 @@
                 <img src="guitarist.png"
               /></a>
               <div class="open-post__heart-count">
-                <i class="fas fa-heart fa-xs"></i><span>420,000</span>
+                <i class="fas fa-heart fa-xs"></i
+                ><span id="heart-count">420,000</span>
               </div>
             </div>
           </div>
@@ -111,7 +104,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
+            <span class="nav__notification badge to-hide">1</span>
             <i class="far fa-comment fa-2x"></i
           ></a>
         </li>
@@ -125,7 +118,6 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
-            <span class="nav__dot-notification"></span>
             <i class="fas fa-ellipsis-h fa-2x"></i>
           </a>
         </li>
@@ -139,6 +131,9 @@
       >
     </div>
 
+    <script src="js/find.js"></script>
+    <script src="js/greetings-top.js"></script>
     <script src="js/clock.js"></script>
+    <script src="js/hide-not.js"></script>
   </body>
 </html>

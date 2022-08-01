@@ -1,6 +1,6 @@
 #chat-screen{
     background-color: rgb(244, 247, 235);
-    height: 500vh;
+    height: 50vh;
 }
 
 #chat-screen .alt-header,
@@ -142,6 +142,7 @@
  
 .reply .reply__column:first-child {
     width: 10%;
+    cursor: not-allowed
 }
 
 .reply .reply__column:last-child {
@@ -168,6 +169,7 @@
     position: absolute;
     right: 4px;
     top: 5px;
+    cursor: not-allowed
 }
  
 .reply__column:last-child > i {
